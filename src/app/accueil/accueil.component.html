@@ -1,0 +1,159 @@
+<!-- Intro Section -->
+<div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(../../assets/fond.jpg); background-size: cover;">
+  <div class="full-bg-img mask rgba-black-light">
+    <div class="container flex-center">
+      <div class="row pt-5 mt-3 w-100">
+        <div class="col-md-12">
+          <div class="text-center">
+            <h2 class="h1 h1-reponsive white-text font-up font-bold mb-3 wow fadeInDown" data-wow-delay="0.3s"><strong>Welcome to <br> DotCom Restaurant</strong></h2>
+            <hr class="hr-light mt-4 wow fadeInDown" data-wow-delay="0.4s">
+            <h5 class="font-up mb-5 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>L'ART DE CUISINE</strong></h5>
+            <a mdbBtn color="white" outline="true" class="wow fadeInDown waves-light example hoverable" data-wow-delay="0.4s"
+              mdbWavesEffect routerLink="/food">I'm Hungry</a>
+            <a mdbBtn color="white" outline="true" class="wow fadeInDown waves-light example hoverable2-" data-wow-delay="0.4s"
+              mdbWavesEffect routerLink="/drink">I'm Thirsty</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Section: Testimonials v.4 -->
+<section class="container text-center my-5 mt-5">
+    <!-- Section heading -->
+    <h2 class="h1-responsive font-weight-bold my-5">WHAT PEOPLE SAY</h2>
+    <!-- Grid row -->
+    <div class="row">
+      <!--Carousel Wrapper-->
+      <mdb-carousel [isControls]="false" class="carousel-multi-item multi-animation testimonial-carousel" [type]="'carousel-multi-item'"
+        [animation]="'slide'">
+        <!--First slide-->
+        <mdb-slide>
+          <!--Grid column-->
+          <div class="col-md-4">
+            <div class="testimonial">
+              <!--Avatar-->
+              <div class="avatar mx-auto">
+                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(25).jpg" class="rounded-circle img-fluid">
+              </div>
+              <!--Content-->
+              <h4 class="font-weight-bold mt-4">Anna Deynah</h4>
+              <h6 class="blue-text font-weight-bold my-3"></h6>
+              <p class="font-weight-normal">
+                <mdb-icon fas icon="quote-left" class="pr-2"></mdb-icon>Dotcom is the longest lasting Restaurant in the city and is well run and staffed. Prices are great and allow me to keep coming back.</p>
+              <!--Review-->
+              <div class="grey-text">
+                <mdb-icon fas [icon]="i == 4 ? 'star-half' : 'star'"   *ngFor="let star of stars; let i = index"></mdb-icon>
+              </div>
+            </div>
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="col-md-4 clearfix d-none d-md-block">
+            <div class="testimonial">
+              <!--Avatar-->
+              <div class="avatar mx-auto">
+                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg" class="rounded-circle img-fluid">
+              </div>
+              <!--Content-->
+              <h4 class="font-weight-bold mt-4">John Doe</h4>
+              <h6 class="blue-text font-weight-bold my-3"></h6>
+              <p class="font-weight-normal">
+                <mdb-icon fas icon="quote-left" class="pr-2"></mdb-icon>I am a real food addict, and even when I’m home I prefer your dishes to all others. They taste awesome and are very affordable</p>
+              <!--Review-->
+              <div class="grey-text">
+                <mdb-icon fas icon="star" *ngFor="let star of stars; let i = index"></mdb-icon>
+              </div>
+            </div>
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="col-md-4 clearfix d-none d-md-block">
+            <div class="testimonial">
+              <!--Avatar-->
+              <div class="avatar mx-auto">
+                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" class="rounded-circle img-fluid">
+              </div>
+              <!--Content-->
+              <h4 class="font-weight-bold mt-4">Abbey Clark</h4>
+              <h6 class="blue-text font-weight-bold my-3"></h6>
+              <p class="font-weight-normal">
+                <mdb-icon fas icon="quote-left" class="pr-2"></mdb-icon>Dotcom Restaurant has amazing pizza. Not only do you get served with a great attitude, you also get delicious pizza at a great price!</p>
+              <!--Review-->
+              <div class="grey-text">
+                <mdb-icon fas [icon]="i == 4 ? 'star-o' : 'star' " *ngFor="let star of stars; let i = index"></mdb-icon>
+              </div>
+            </div>
+          </div>
+          <!--Grid column-->
+        </mdb-slide>
+        <!--/First slide-->
+        <!--Second slide-->
+        <mdb-slide>
+          <div class="col-md-4">
+            <div class="testimonial">
+              <!--Avatar-->
+              <div class="avatar mx-auto">
+                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(4).jpg" class="rounded-circle img-fluid">
+              </div>
+              <!--Content-->
+              <h4 class="font-weight-bold mt-4">Blake Dabney</h4>
+              <h6 class="blue-text font-weight-bold my-3"></h6>
+              <p class="font-weight-normal">
+                <mdb-icon fas icon="quote-left" class="pr-2"></mdb-icon> Such a lovely day! The place was peaceful and beautiful. The food was amazing too.</p>
+              <!--Review-->
+              <div class="grey-text">
+                <mdb-icon fas [icon]="i == 4 ? 'star-half' : 'star'"   *ngFor="let star of stars; let i = index"></mdb-icon>
+              </div>
+            </div>
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="col-md-4 clearfix d-none d-md-block">
+            <div class="testimonial">
+              <!--Avatar-->
+              <div class="avatar mx-auto">
+                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(6).jpg" class="rounded-circle img-fluid">
+              </div>
+              <!--Content-->
+              <h4 class="font-weight-bold mt-4">Andrea Clay</h4>
+              <h6 class="blue-text font-weight-bold my-3"></h6>
+              <p class="font-weight-normal">
+                <mdb-icon fas icon="quote-left" class="pr-2"></mdb-icon> NICE PLACE VERY QUIET AND BEAUTIFUL EXCELLENT FOOD AND VERY PLEASANT STAFF </p>
+              <!--Review-->
+              <div class="grey-text">
+                <mdb-icon fas icon="star" *ngFor="let star of stars; let i = index"></mdb-icon>
+              </div>
+            </div>
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="col-md-4 clearfix d-none d-md-block">
+            <div class="testimonial">
+              <!--Avatar-->
+              <div class="avatar mx-auto">
+                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(7).jpg" class="rounded-circle img-fluid">
+              </div>
+              <!--Content-->
+              <h4 class="font-weight-bold mt-4">Cami Gosse</h4>
+              <h6 class="blue-text font-weight-bold my-3"></h6>
+              <p class="font-weight-normal">
+                <mdb-icon fas icon="quote-left" class="pr-2"></mdb-icon> Wonderful. Very good value for such a relaxing and happy day. Wonderful ambience and food. </p>
+              <!--Review-->
+              <div class="grey-text">
+                <mdb-icon fas [icon]="star == 4 ? 'star-o' : 'star'" *ngFor="let star of stars; let i = index"></mdb-icon>
+              </div>
+            </div>
+          </div>
+          <!--Grid column-->
+        </mdb-slide>
+        <!--/Second slide-->
+      </mdb-carousel>
+      <!--/.Carousel Wrapper-->
+    </div>
+    <!-- Grid row -->
+  </section>
+  <!-- Section: Testimonials v.4 -->
