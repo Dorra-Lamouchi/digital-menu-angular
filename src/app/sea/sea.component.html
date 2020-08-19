@@ -1,0 +1,47 @@
+<br><br><br><br>
+<mdb-breadcrumb>
+  <mdb-breadcrumb-item class="blue-text"routerLink="/"><mdb-icon fas icon="arrow-circle-left"></mdb-icon> Home </mdb-breadcrumb-item>
+    <mdb-breadcrumb-item class="active">SeaFood</mdb-breadcrumb-item>
+</mdb-breadcrumb>
+
+<div class="row row-cols-1 row-cols-md-3">
+    <div class="col mb-4">
+      <!-- Card -->
+      <div class="card h-100" style="padding-left: 5; padding-right: 5;">
+  
+        <!--Card image-->
+        <div class="view overlay"style="height: 70%;">
+          <img class="card-img-top" src="../../assets/starter1.jpg"
+            alt="Card image cap" style="height: 100%;">
+          <a href="#!">
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+  
+        <!--Card content-->
+        <div class="card-body">
+  
+          <!--Title-->
+          <h4 class="card-title"><b>Poisson grillé</b></h4>  
+          <div class="yellow-text">
+              <mdb-icon fas [icon]="i == 4 ? 'star-half' : 'star'"   *ngFor="let star of stars; let i = index"></mdb-icon>
+          </div>
+          <!--Text-->
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+            card's content.</p>
+          <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+          <p style="text-align: right;">
+              <span style="float: left;">
+                <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal" data-target="#modalAbandonedCart">
+                  <i class="fas fa-shopping-cart"></i>  Add to cart
+                </button>
+              </span>
+              <span class="badge badge-danger" >
+                  <i class="fas fa-dollar-sign fa-2x">  7 DT  </i>
+              </span>
+          </p>
+        </div>
+  
+      </div>
+      <!-- Card 1-->
+    </div>

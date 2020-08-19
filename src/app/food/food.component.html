@@ -21,45 +21,47 @@
 
 
 <h3 style="text-align: center;"><b>Our Menu</b></h3><br>
-<button mdbBtn type="button" gradient="blue" size="lg"  block="true" style="text-align:left" mdbWavesEffect routerLink="/food/starter">
-    <div class="row">
-        <div class="col-10"><p>Starters</p></div>
-        <div class="col-2"><p>7</p></div>
-    </div>
-</button> <br>
-<button mdbBtn type="button" gradient="blue" size="lg"  block="true" style="text-align:start ;" mdbWavesEffect>
-    <div class="row">
-        <div class="col-10"><p>Soups</p></div>
-        <div class="col-2"><p>2</p></div>
-    </div>
-</button> <br>
-<button mdbBtn type="button" gradient="blue" size="lg" block="true" style="text-align:start ;" mdbWavesEffect>
-    <div class="row">
-        <div class="col-10"><p>Pasta & Risotto</p></div>
-        <div class="col-2"><p>8</p></div>
-    </div>
-</button> <br>
-<button mdbBtn type="button" gradient="blue" size="lg" block="true" style="text-align:start ;" mdbWavesEffect>
-    <div class="row">
-        <div class="col-10"><p>Pizza</p></div>
-        <div class="col-2"><p>4</p></div>
-    </div>
-</button> <br>
-<button mdbBtn type="button" gradient="blue" size="lg" block="true" style="text-align:start ;" mdbWavesEffect>
-    <div class="row">
-        <div class="col-10"><p>Meat, Poultry & Seafood</p></div>
-        <div class="col-2"><p>9</p></div>
-    </div>
-</button> <br>
-<button mdbBtn type="button" gradient="blue" size="lg" block="true" style="text-align:start ;" mdbWavesEffect>
-    <div class="row">
-        <div class="col-10"><p>Sides</p></div>
-        <div class="col-2"><p>5</p></div>
-    </div>
-</button> <br>
-<button mdbBtn type="button" gradient="blue" size="lg" block="true" style="text-align:start ;" mdbWavesEffect>
-    <div class="row">
-        <div class="col-10"><p>Dessets</p></div>
-        <div class="col-2"><p>8</p></div>
-    </div>
-</button> <br>
+<ul class="list-group">
+    <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: lightpink; margin-bottom: 10px;" >
+      <a routerLink="/food/starter" style="color: rgba(83, 14, 14, 0.938);"><b>
+        Starter
+      </b></a>
+      <span class="badge badge-light">7</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:pink; margin-bottom: 10px;" >
+        <a routerLink="/food/soup" style="color: rgba(83, 14, 14, 0.938);"><b>
+          Soups
+        </b></a>
+        <span class="badge badge-light">4</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #f8afc9 ; margin-bottom: 10px;" >
+        <a routerLink="/food/p&r" style="color: rgba(83, 14, 14, 0.938);"><b>
+            Pasta & Risotto
+        </b></a>
+        <span class="badge badge-light">8</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: lightpink; margin-bottom: 10px;" >
+        <a routerLink="/food/pizza" style="color: rgba(83, 14, 14, 0.938);"><b>
+            Pizza
+        </b></a>
+        <span class="badge badge-light">4</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: pink; margin-bottom: 10px;" >
+        <a routerLink="/food/m,p&s" style="color: rgba(83, 14, 14, 0.938);"><b>
+            Meat, Poultry & Seafood
+        </b></a>
+        <span class="badge badge-light">9</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: #f8afc9 ; margin-bottom: 10px;" >
+        <a routerLink="/food/side" style="color: rgba(83, 14, 14, 0.938);"><b>
+            Sides 
+        </b></a>
+        <span class="badge badge-light">5</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: lightpink  ; margin-bottom: 10px;" >
+        <a routerLink="/food/dessert" style="color: rgba(83, 14, 14, 0.938);"><b>
+            Dessets 
+        </b></a>
+        <span class="badge badge-light">5</span>
+    </li>
+</ul>

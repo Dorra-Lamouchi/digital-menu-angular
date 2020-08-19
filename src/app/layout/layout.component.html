@@ -2,32 +2,14 @@
 <header class="intro-header">
 
     <!--Navbar-->
-    <mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar intro-fixed-nav" [containerInside]="false">
+    <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark grey darken-3 ie-nav fixed-top" [containerInside]="false">
       <mdb-navbar-brand>
-        <a class="logo navbar-brand waves-light" mdbWavesEffect href="#"><strong><img id="logo" src="../assets/logo.png"></strong></a>
+        <a class="logo navbar-brand waves-light" mdbWavesEffect routerLink="/"><strong><img id="logo" src="../assets/logo.png"></strong></a>
       </mdb-navbar-brand>
-      <links>
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active waves-light" mdbWavesEffect>
-            <a class="nav-link" routerLink="/">Home </a>
-          </li>
-          <li class="nav-item waves-light" mdbWavesEffect>
-            <a class="nav-link" href="#">Menu</a>
-          </li>
-          <li class="nav-item waves-light" mdbWavesEffect>
-            <a class="nav-link" data-toggle="modal" data-target="#fullHeightModalRight">Contact</a>
-          </li>
-          <li class="nav-item waves-light" mdbWavesEffect>
-            <a class="nav-link" routerLink="/about">About us</a>
-          </li>
-        </ul>
-        <form class="form-inline waves-light" mdbWavesEffect>
-          <div class="md-form mt-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <mdb-icon fas icon="search" aria-hidden="true"></mdb-icon>
-          </div>
-        </form>
-      </links>
+      <div class="ml-auto">
+        <mdb-badge pill="true" color="pink"> 0 </mdb-badge>
+        <mdb-icon fas icon="shopping-cart" size="2x" class="white-text"></mdb-icon>
+      </div>
     </mdb-navbar>
 </header>
 
@@ -35,28 +17,28 @@
 
 <router-outlet> </router-outlet>
 
-<!-- Footer -->
+<!-- Footer >
 <footer class="page-footer font-small mdb-color grey darken-3 pt-4">
 
-    <!-- Footer Links -->
+   
     <div class="container text-center text-md-left">
   
-      <!-- Grid row -->
+   
       <div class="row">
   
-        <!-- Grid column -->
+    
         <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
   
-          <!-- Content -->
+        
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3209.038619349228!2d10.729540215134355!3d36.4566229800208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x130298bd79f48ccf%3A0xab21798b66964a39!2sDotcomtunisia!5e0!3m2!1sfr!2stn!4v1595865051021!5m2!1sfr!2stn" 
               width="400" height="420" frameborder="0" style="border:0; float: right; position: right; margin-right: 20; margin-left: 20; margin-top: 0;" allowfullscreen="" aria-hidden="false" tabindex="0" >
           </iframe>
         </div>
   
-        <!-- Grid column -->
+    
         <hr class="clearfix w-200 d-md-none">
         <div class="col-md-8 col-lg-6 mx-auto my-md-8 my-4 mt-8 mb-2">
-          <!--registration-->
+      
           <h5 class="font-weight-bold my-4 text-uppercase mb-4">Register for free</h5>
           <p>Share your date of birth and we’ll send you something nice on your birthday :)</p>
           <ul class="list-unstyled list-inline text-center py-2">
@@ -88,36 +70,35 @@
           </ul>
          
   
-          <!-- Social buttons -->
           <h5 class="font-weight-bold my-4 text-uppercase mb-4">Follow Us</h5>
   
           <ul class="list-unstyled list-inline text-center">
             <li class="list-inline-item">
-              <!--Facebook-->
+            
               <a mdbBtn floating="true" color="fb" class="mx-1" mdbWavesEffect>
                 <mdb-icon fab icon="facebook"size="2x" class="white-text mr-md-3 mr-1"></mdb-icon>
               </a>
             </li>
             <li class="list-inline-item">
-              <!--Instagram-->
+           
               <a class="ins-ic">
                 <mdb-icon fab icon="instagram" size="2x" class="white-text mr-md-3 mr-1"></mdb-icon>
               </a>
             </li>
             <li class="list-inline-item">
-              <!--Twitter-->
+            
               <a mdbBtn floating="true" color="tw" class="mx-1" mdbWavesEffect>
                 <mdb-icon fab icon="twitter"size="2x" class="white-text mr-md-3 mr-1"></mdb-icon>
               </a>
             </li>
             <li class="list-inline-item">
-              <!--Google+-->
+            
               <a mdbBtn floating="true" color="gplus" class="mx-1" mdbWavesEffect>
                 <mdb-icon fab fab icon="google-plus"size="2x" class="white-text mr-md-3 mr-1"></mdb-icon>
               </a>
             </li>
             <li class="list-inline-item">
-              <!--Linkedin-->
+           
               <a mdbBtn floating="true" color="li" class="mx-1" mdbWavesEffect>
                 <mdb-icon fab icon="linkedin"size="2x" class="white-text mr-md-3 mr-1"></mdb-icon>
               </a>
@@ -127,16 +108,14 @@
         </div>
   
       </div>
-      <!-- Grid row -->
+  
   
     </div>
-    <!-- Footer Links -->
-  
-    <!-- Copyright -->
+ 
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
       <a href="https://dotcom.tn/"> DotCom</a>
     </div>
-    <!-- Copyright -->
+ 
   
   </footer>
-  <!-- Footer -->
+  < Footer -->

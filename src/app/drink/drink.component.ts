@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class DrinkComponent {
   title = 'digital-menu';
+  stars = Array(5);
 }
 
 
